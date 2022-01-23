@@ -1,0 +1,37 @@
+.Deck {
+  font-family: "Quicksand", sans-serif;
+}
+.Deck-cardarea {
+  margin-top: 80px;
+}
+
+.Deck-title {
+  color: azure;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: azure;
+  font-size: 15px;
+
+  letter-spacing: 1px;
+}
+
+.deck-btn {
+  background-color: none;
+  outline: none;
+  font: inherit;
+  margin: 0.5em;
+  padding: 1em 2em;
+  background-color: #8f44ff;
+  color: azure;
+  border: 1px solid;
+  transition: 0.25s;
+}
+
+.deck-btn:hover {
+  background-color: rgb(100, 24, 185);
+  border-color: rgb(194, 58, 17);
+}
